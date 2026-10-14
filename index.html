@@ -201,9 +201,10 @@
         </div>
       </div>
 
-      <!-- Hero Background Video Preview Loop (Web-Optimized FastStart 5.2MB) -->
+      <!-- Hero Background Video Preview Loop (Web-Optimized with Instant Poster) -->
       <div class="hero-bg-media">
-        <video class="hero-bg-video" autoplay muted loop playsinline preload="auto">
+        <video class="hero-bg-video" autoplay muted loop playsinline preload="auto" poster="assets/images/poster_hero_fashion.jpg">
+          <source src="videos/Fashion Show reel.mp4" type="video/mp4">
           <source src="videos/hero_loop_fast.mp4" type="video/mp4">
         </video>
         <div class="hero-overlay-dark"></div>
@@ -229,9 +230,9 @@
         </p>
 
         <div class="hero-cta-group">
-          <button class="btn-primary btn-glow" id="playReelBtn" data-video="videos/laiba reel 2.mp4"
-            data-title="Laiba Reel 2" data-client="Ideas One" data-specs="1080P • Reel"
-            data-desc="Promotional reel featuring Laiba for Ideas One.">
+          <button class="btn-primary btn-glow" id="playReelBtn" data-video="videos/Fashion Show reel.mp4"
+            data-title="Fashion Show Runway Reel" data-client="Fashion & Editorial" data-specs="4K UHD • Signature Reel"
+            data-desc="Cinematic runway fashion showcase featuring precision motion tracking, high-contrast grading, and rhythmic visual pacing.">
             <span class="btn-icon"><i class="fa-solid fa-play"></i></span>
             <span>Watch Showreel</span>
           </button>
@@ -305,7 +306,65 @@
         <!-- Video Portfolio Grid -->
         <div class="projects-grid" id="projectsGrid">
 
-          <!-- PROJECT 1: Ideas One Reel -->
+          <!-- PROJECT 1: Maham Reel 1 (First in Portfolio) -->
+          <article class="project-card format-vertical" data-category="reels"
+            data-video="videos/Maham Reel 1.mp4" data-title="Maham Luxury Aesthetic Reel" data-client="Maham / Lifestyle"
+            data-specs="1080P • 60 FPS • Reel" data-desc="High-energy cinematic lifestyle and fashion reel featuring Maham with precision rhythmic pacing and graded contrast.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_maham1.jpg" alt="Maham Reel 1" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-gem"></i> Maham</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Maham Reel 1</h3>
+              <p class="card-snippet">Cinematic lifestyle & fashion reel with dynamic rhythm.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Fashion Reel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Maham Reel 2 -->
+          <article class="project-card format-vertical" data-category="reels"
+            data-video="videos/Maham Reel 2.mp4" data-title="Maham Elegance & Motion" data-client="Maham / Lifestyle"
+            data-specs="1080P • 60 FPS • Reel" data-desc="Stylized short-form reel highlighting fluid motion design, architectural light interplay, and vibrant color grading.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_maham2.jpg" alt="Maham Reel 2" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-gem"></i> Maham</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Maham Reel 2</h3>
+              <p class="card-snippet">Stylized motion reel highlighting fluid pacing.</p>
+              <div class="card-tags">
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">Color Graded</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Ideas One Reel -->
           <article class="project-card format-vertical" data-category="commercial reels"
             data-video="videos/IdeasOne File Reel.mp4" data-title="Ideas One Reel" data-client="Ideas One"
             data-specs="1080P • Commercial" data-desc="Commercial promotional reel for Ideas One.">
@@ -334,7 +393,7 @@
             </div>
           </article>
 
-          <!-- PROJECT 2: Bilal Walkthrough -->
+          <!-- PROJECT 4: Bilal Walkthrough -->
           <article class="project-card format-vertical" data-category="walkthrough reels"
             data-video="videos/IdeasOne Bilal Reel2.mp4" data-title="Bilal Walkthrough" data-client="Ideas One"
             data-specs="1080P • Walkthrough" data-desc="Property walkthrough presented by Bilal for Ideas One.">
@@ -363,7 +422,36 @@
             </div>
           </article>
 
-          <!-- PROJECT 3: Laiba Reel 1 -->
+          <!-- PROJECT 5: Tayyab Personal Showreel -->
+          <article class="project-card format-vertical" data-category="commercial reels"
+            data-video="videos/Tayyab Personal.mp4" data-title="Tayyab Personal Showreel" data-client="Tayyab POV"
+            data-specs="4K UHD • Signature Cut" data-desc="Signature personal showreel showcasing advanced camera movement, surgical color science, and rhythmic editing dynamics.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_tayyab.jpg" alt="Tayyab Personal Showreel" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">4K UHD</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-crown"></i> Tayyab POV</span>
+                <span class="card-category">Showreel</span>
+              </div>
+              <h3 class="card-title">Tayyab Personal Cut</h3>
+              <p class="card-snippet">Signature personal showreel & dynamic visual craft.</p>
+              <div class="card-tags">
+                <span class="tag">Premiere Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Showreel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Laiba Reel 1 -->
           <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba Reel 1.mp4"
             data-title="Laiba Reel 1" data-client="Ideas One" data-specs="1080P • Reel"
             data-desc="Promotional reel featuring Laiba for Ideas One.">
@@ -392,7 +480,7 @@
             </div>
           </article>
 
-          <!-- PROJECT 4: Laiba Reel 2 -->
+          <!-- PROJECT 7: Laiba Reel 2 -->
           <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba reel 2.mp4"
             data-title="Laiba Reel 2" data-client="Ideas One" data-specs="1080P • Reel"
             data-desc="Promotional reel featuring Laiba for Ideas One.">
@@ -421,7 +509,7 @@
             </div>
           </article>
 
-          <!-- PROJECT 5: Laiba Reel 3 -->
+          <!-- PROJECT 8: Laiba Reel 3 -->
           <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba reel 3.mp4"
             data-title="Laiba Reel 3" data-client="Ideas One" data-specs="1080P • Reel"
             data-desc="Promotional reel featuring Laiba for Ideas One.">
@@ -450,7 +538,36 @@
             </div>
           </article>
 
-          <!-- PROJECT 6: Client Slot / Custom Video Upload Ready -->
+          <!-- PROJECT 9: Imral Reel 15 (Other Reel At Last of Portfolio) -->
+          <article class="project-card format-vertical" data-category="reels"
+            data-video="videos/Imral Reel 15.mp4" data-title="Imral Reel 15" data-client="Imral / Editorial"
+            data-specs="1080P • 60 FPS • Reel" data-desc="Paced short-form reel featuring Imral with dynamic cuts, audio sync, and commercial styling.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_imral.jpg" alt="Imral Reel 15" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-clapperboard"></i> Imral</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Imral Reel 15</h3>
+              <p class="card-snippet">Dynamic short-form commercial reel.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Editorial Reel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 10: Client Slot / Custom Video Upload Ready -->
           <article class="project-card upload-slot-card" data-category="all" id="customVideoCard">
             <div class="slot-inner">
               <div class="slot-icon">

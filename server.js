@@ -57,6 +57,8 @@ const server = http.createServer((req, res) => {
     };
     res.writeHead(206, head);
     file.pipe(res);
+    req.on('close', () => file.destroy());
+    file.on('error', () => {});
   } else {
     const head = {
       'Content-Length': stat.size,
@@ -64,7 +66,10 @@ const server = http.createServer((req, res) => {
       'Accept-Ranges': 'bytes',
     };
     res.writeHead(200, head);
-    fs.createReadStream(filePath).pipe(res);
+    const file = fs.createReadStream(filePath);
+    file.pipe(res);
+    req.on('close', () => file.destroy());
+    file.on('error', () => {});
   }
 });
 

@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Tayyab Nadeem | The Digital Architect — Videographer & Editor</title>
+  <meta name="description"
+    content="Official portfolio of Muhammad Tayyab Nadeem. Professional Videographer, Cinematic Editor, and Colorist specializing in architectural videography, dynamic short-form reels, and commercial campaigns.">
+  <meta name="keywords"
+    content="Muhammad Tayyab Nadeem, Video Editor, Videographer, Color Grading, DaVinci Resolve, CapCut Pro, Architectural Videography, Reels Editor, Short Form Video">
+  <meta name="author" content="Muhammad Tayyab Nadeem">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Muhammad Tayyab Nadeem | The Digital Architect">
+  <meta property="og:description"
+    content="Cinematic Videographer & Video Editor specializing in architectural films, dynamic short-form reels, and surgical color grading.">
+  <meta property="og:image" content="assets/images/tayyab-portrait.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="cinematic-theme">
+
+
+  <!-- Film Grain Overlay -->
+  <div class="film-grain-overlay" aria-hidden="true"></div>
+
+  <!-- Ambient Cinematic Glows -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Tayyab Nadeem Homepage">
+        <span class="rec-blinker" aria-hidden="true"></span>
+        <span class="brand-name">TAYYAB<span class="highlight">.POV</span></span>
+        <span class="brand-tag">07</span>
+      </a>
+
+      <!-- Viewfinder Timecode In Nav -->
+      <div class="nav-timecode" id="navTimecode" title="Live Timeline Timecode">
+        <span class="tc-label">TC</span>
+        <span class="tc-val">00:00:00:00</span>
+      </div>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#projects" class="nav-link">Showcase</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#apps" class="nav-link">Software</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer" class="btn-instagram"
+          title="Follow on Instagram">
+          <i class="fa-brands fa-instagram"></i>
+          <span>@tayyab_pov07</span>
+        </a>
+
+        <a href="#contact" class="btn-primary btn-hire" aria-label="Book Project">
+          <span class="hire-text-desktop">Book Project</span>
+          <span class="hire-text-mobile">Book</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="menu-bar bar-1"></span>
+          <span class="menu-bar bar-2"></span>
+          <span class="menu-bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop Overlay -->
+  <div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+
+  <!-- Redesigned Mobile Drawer Menu -->
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <a href="#hero" class="brand-logo drawer-logo" aria-label="Tayyab Nadeem Homepage">
+        <span class="rec-blinker" aria-hidden="true"></span>
+        <span class="brand-name">TAYYAB<span class="highlight">.POV</span></span>
+        <span class="brand-tag">07</span>
+      </a>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Availability Beacon Pill -->
+    <div class="drawer-status-pill">
+      <span class="pulse-green"></span>
+      <span>Available for 2026 Productions</span>
+    </div>
+
+    <!-- Mobile Nav Links with Icons & Chevrons -->
+    <nav class="drawer-links">
+      <a href="#projects" class="drawer-link">
+        <span class="drawer-link-icon"><i class="fa-solid fa-clapperboard"></i></span>
+        <span class="drawer-link-text">Showcase</span>
+        <i class="fa-solid fa-chevron-right drawer-link-arrow"></i>
+      </a>
+      <a href="#about" class="drawer-link">
+        <span class="drawer-link-icon"><i class="fa-solid fa-user-astronaut"></i></span>
+        <span class="drawer-link-text">About Tayyab</span>
+        <i class="fa-solid fa-chevron-right drawer-link-arrow"></i>
+      </a>
+      <a href="#apps" class="drawer-link">
+        <span class="drawer-link-icon"><i class="fa-solid fa-sliders"></i></span>
+        <span class="drawer-link-text">Software & Gear</span>
+        <i class="fa-solid fa-chevron-right drawer-link-arrow"></i>
+      </a>
+      <a href="#experience" class="drawer-link">
+        <span class="drawer-link-icon"><i class="fa-solid fa-briefcase"></i></span>
+        <span class="drawer-link-text">Experience</span>
+        <i class="fa-solid fa-chevron-right drawer-link-arrow"></i>
+      </a>
+      <a href="#contact" class="drawer-link highlight-link">
+        <span class="drawer-link-icon"><i class="fa-solid fa-paper-plane"></i></span>
+        <span class="drawer-link-text">Book Project</span>
+        <i class="fa-solid fa-chevron-right drawer-link-arrow"></i>
+      </a>
+    </nav>
+
+    <!-- Drawer Quick CTA -->
+    <div class="drawer-cta-wrapper">
+      <a href="#contact" class="btn-primary drawer-primary-btn">
+        <i class="fa-solid fa-bolt"></i>
+        <span>Start a Project</span>
+      </a>
+    </div>
+
+    <!-- Drawer Footer Actions -->
+    <div class="drawer-footer">
+      <div class="drawer-social-grid">
+        <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer"
+          class="drawer-social-pill instagram-pill">
+          <i class="fa-brands fa-instagram"></i>
+          <span>@tayyab_pov07</span>
+        </a>
+        <a href="https://wa.me/923224422553" target="_blank" rel="noopener noreferrer"
+          class="drawer-social-pill whatsapp-pill">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+      <a href="mailto:tayyeb31075@gmail.com" class="drawer-email-link">
+        <i class="fa-solid fa-envelope"></i>
+        <span>tayyeb31075@gmail.com</span>
+      </a>
+      <div class="drawer-timecode">
+        <span class="tc-label">LIVE TC</span>
+        <span class="tc-val" id="drawerTimecode">00:00:00:00</span>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <!-- Camera HUD Frame Lines -->
+      <div class="camera-hud" aria-hidden="true">
+        <div class="hud-corner top-left"></div>
+        <div class="hud-corner top-right"></div>
+        <div class="hud-corner bottom-left"></div>
+        <div class="hud-corner bottom-right"></div>
+        <div class="hud-crosshair center"></div>
+
+        <div class="hud-metadata top">
+          <span class="hud-item"><span class="live-pulse"></span> REC</span>
+          <span class="hud-item">4K UHD • 60.0 FPS</span>
+          <span class="hud-item">PRORES 422 HQ</span>
+          <span class="hud-item">180° SHUTTER</span>
+        </div>
+        <div class="hud-metadata bottom">
+          <span class="hud-item">LOG-3 / D-CINELIKE</span>
+          <span class="hud-item">ISO 400</span>
+          <span class="hud-item">5600K WB</span>
+          <span class="hud-item">BATTERY 100%</span>
+        </div>
+      </div>
+
+      <!-- Hero Background Video Preview Loop (Web-Optimized FastStart 5.2MB) -->
+      <div class="hero-bg-media">
+        <video class="hero-bg-video" autoplay muted loop playsinline preload="auto">
+          <source src="videos/hero_loop_fast.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay-dark"></div>
+        <div class="hero-light-streak"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-in">
+          <span class="badge-dot"></span>
+          <span class="badge-text">THE DIGITAL ARCHITECT</span>
+          <span class="badge-sep">/</span>
+          <span class="badge-role">CINEMATIC VIDEOGRAPHER & EDITOR</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="title-line">MUHAMMAD</span>
+          <span class="title-line title-highlight">TAYYAB NADEEM</span>
+        </h1>
+
+        <p class="hero-bio">
+          Crafting high-voltage visual narratives, architectural cinematic walkthroughs, and precision-paced short-form
+          reels. Merging technical rigor with cutting-edge color science to make brands truly unforgettable.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn-primary btn-glow" id="playReelBtn" data-video="videos/laiba reel 2.mp4"
+            data-title="Laiba Reel 2" data-client="Ideas One" data-specs="1080P • Reel"
+            data-desc="Promotional reel featuring Laiba for Ideas One.">
+            <span class="btn-icon"><i class="fa-solid fa-play"></i></span>
+            <span>Watch Showreel</span>
+          </button>
+
+          <a href="#projects" class="btn-secondary">
+            <i class="fa-solid fa-film"></i>
+            <span>Explore Projects</span>
+          </a>
+
+          <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer"
+            class="btn-instagram-pill">
+            <i class="fa-brands fa-instagram"></i>
+            <span>@tayyab_pov07</span>
+          </a>
+        </div>
+
+        <!-- Hero Stats / Credibility Strip -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-num" data-count="50">50+</div>
+            <div class="stat-label">Projects Produced</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-count="5">5M+</div>
+            <div class="stat-label">Social Impressions</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">4K HDR</div>
+            <div class="stat-label">Color Graded Standard</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Frame Pacing Accuracy</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#projects" class="scroll-indicator" aria-label="Scroll to projects">
+        <span class="scroll-text">SCROLL TO DISCOVER</span>
+        <div class="scroll-line">
+          <span class="scroll-ball"></span>
+        </div>
+      </a>
+    </section>
+
+    <!-- SECTION: FEATURED VIDEO SHOWCASE -->
+    <section class="section projects-section" id="projects">
+      <div class="section-container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-clapperboard"></i>
+            <span>PORTFOLIO SHOWCASE</span>
+          </div>
+          <h2 class="section-title">Selected Works</h2>
+          <p class="section-subtitle">
+            A showcase of commercial campaigns, property walkthroughs, and social reels produced for Ideas One. Hover to
+            preview clips or click for full-screen theater mode.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="walkthrough">Walkthrough</button>
+          <button class="filter-btn" data-filter="reels">Reels</button>
+        </div>
+
+        <!-- Video Portfolio Grid -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- PROJECT 1: Ideas One Reel -->
+          <article class="project-card format-vertical" data-category="commercial reels"
+            data-video="videos/IdeasOne File Reel.mp4" data-title="Ideas One Reel" data-client="Ideas One"
+            data-specs="1080P • Commercial" data-desc="Commercial promotional reel for Ideas One.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_ideas_one.jpg" alt="Ideas One Reel" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">1080P</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-building"></i> Ideas One</span>
+                <span class="card-category">Commercial</span>
+              </div>
+              <h3 class="card-title">Ideas One Reel</h3>
+              <p class="card-snippet">Commercial promotional reel.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Commercial</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Bilal Walkthrough -->
+          <article class="project-card format-vertical" data-category="walkthrough reels"
+            data-video="videos/IdeasOne Bilal Reel2.mp4" data-title="Bilal Walkthrough" data-client="Ideas One"
+            data-specs="1080P • Walkthrough" data-desc="Property walkthrough presented by Bilal for Ideas One.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_bilal.jpg" alt="Bilal Walkthrough" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">1080P</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-building"></i> Ideas One</span>
+                <span class="card-category">Walkthrough</span>
+              </div>
+              <h3 class="card-title">Bilal Walkthrough</h3>
+              <p class="card-snippet">Property walkthrough presented by Bilal.</p>
+              <div class="card-tags">
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">Walkthrough</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Laiba Reel 1 -->
+          <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba Reel 1.mp4"
+            data-title="Laiba Reel 1" data-client="Ideas One" data-specs="1080P • Reel"
+            data-desc="Promotional reel featuring Laiba for Ideas One.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_laiba1.jpg" alt="Laiba Reel 1" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-building"></i> Ideas One</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Laiba Reel 1</h3>
+              <p class="card-snippet">Promotional reel featuring Laiba.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Reel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Laiba Reel 2 -->
+          <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba reel 2.mp4"
+            data-title="Laiba Reel 2" data-client="Ideas One" data-specs="1080P • Reel"
+            data-desc="Promotional reel featuring Laiba for Ideas One.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_laiba2.jpg" alt="Laiba Reel 2" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-building"></i> Ideas One</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Laiba Reel 2</h3>
+              <p class="card-snippet">Promotional reel featuring Laiba.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">DaVinci Resolve</span>
+                <span class="tag">Reel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Laiba Reel 3 -->
+          <article class="project-card format-vertical" data-category="reels" data-video="videos/laiba reel 3.mp4"
+            data-title="Laiba Reel 3" data-client="Ideas One" data-specs="1080P • Reel"
+            data-desc="Promotional reel featuring Laiba for Ideas One.">
+            <div class="card-media-wrapper">
+              <img src="assets/images/poster_laiba3.jpg" alt="Laiba Reel 3" class="card-poster" loading="lazy">
+              <div class="media-overlay">
+                <div class="play-indicator">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="media-badge">60 FPS</div>
+                <div class="media-aspect">9:16 REEL</div>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <span class="card-client"><i class="fa-solid fa-building"></i> Ideas One</span>
+                <span class="card-category">Reel</span>
+              </div>
+              <h3 class="card-title">Laiba Reel 3</h3>
+              <p class="card-snippet">Promotional reel featuring Laiba.</p>
+              <div class="card-tags">
+                <span class="tag">CapCut Pro</span>
+                <span class="tag">Photoshop</span>
+                <span class="tag">Reel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Client Slot / Custom Video Upload Ready -->
+          <article class="project-card upload-slot-card" data-category="all" id="customVideoCard">
+            <div class="slot-inner">
+              <div class="slot-icon">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+              </div>
+              <h3 class="slot-title">Your Next Video Goes Here</h3>
+              <p class="slot-desc">
+                Have raw footage or an upcoming commercial shoot? Send your brief or upload your media to experience
+                frame-perfect post-production.
+              </p>
+              <a href="#contact" class="btn-secondary btn-slot">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Project Brief</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-footer-cta">
+          <p class="more-text">Looking for a specific genre or custom reel format?</p>
+          <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Browse Full Video Archive on @tayyab_pov07</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ABOUT MUHAMMAD TAYYAB NADEEM -->
+    <section class="section about-section" id="about">
+      <div class="section-container">
+
+        <div class="about-grid">
+
+          <!-- Portrait Visual Frame -->
+          <div class="about-visual">
+            <div class="portrait-card-wrapper">
+              <div class="portrait-glow"></div>
+              <div class="portrait-frame">
+                <!-- User's Real Portrait Photo Extracted From CV -->
+                <img src="assets/images/tayyab-portrait.jpg" alt="Muhammad Tayyab Nadeem - The Digital Architect"
+                  class="portrait-image" loading="eager" width="460" height="575">
+
+                <!-- Camera Viewfinder Overlay on Portrait -->
+                <div class="portrait-hud" aria-hidden="true">
+                  <div class="hud-box"></div>
+                  <div class="hud-tag">FACE DETECT • AF-C 99.8%</div>
+                  <div class="hud-coords">X: 1920 | Y: 1080</div>
+                </div>
+
+                <div class="portrait-floating-badge badge-role">
+                  <i class="fa-solid fa-video"></i>
+                  <span>The Digital Architect</span>
+                </div>
+
+                <div class="portrait-floating-badge badge-status">
+                  <span class="status-dot"></span>
+                  <span>Open for Projects</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bio & Core Competencies -->
+          <div class="about-details">
+            <div class="section-tag">
+              <i class="fa-solid fa-user-astronaut"></i>
+              <span>THE MIND BEHIND THE LENS</span>
+            </div>
+
+            <h2 class="about-heading">
+              Muhammad Tayyab Nadeem
+            </h2>
+
+            <p class="about-tagline">
+              The Digital Architect | Professional Videographer & Editor
+            </p>
+
+            <div class="about-text-content">
+              <p>
+                A visionary videographer and post-production specialist with a deep understanding of visual pacing,
+                cinematic composition, and modern digital aesthetics. From architecting high-stakes construction
+                documentation to engineering viral short-form reels with millions of impressions, every frame is crafted
+                with deliberate intent.
+              </p>
+              <p>
+                Equipped with an unforgiving eye for detail, surgical color grading proficiency across industry
+                standards, and a passion for modern digital storytelling that directly elevates brand prestige and
+                audience retention.
+              </p>
+            </div>
+
+            <!-- Core Skill Highlights Grid -->
+            <div class="core-skills-grid">
+              <div class="skill-pill">
+                <div class="skill-icon"><i class="fa-solid fa-film"></i></div>
+                <div class="skill-info">
+                  <h4>Video Editing & Compositing</h4>
+                  <span>Seamless pacing, J/L cuts, multi-cam assembly</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+                <div class="skill-info">
+                  <h4>Cinematic Color Grading</h4>
+                  <span>LOG to Rec.709, custom 3D LUTs, skin-tone isolation</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon"><i class="fa-solid fa-city"></i></div>
+                <div class="skill-info">
+                  <h4>Architectural Videography</h4>
+                  <span>Structural progress, spatial walkthroughs, elevation angles</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="skill-info">
+                  <h4>Short-Form Reel Innovation</h4>
+                  <span>High retention speed-ramping, trend-setting formats</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="#contact" class="btn-primary">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Collaborate With Me</span>
+              </a>
+              <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer"
+                class="btn-instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Follow @tayyab_pov07</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: SOFTWARE STACK & PRODUCTION ARSENAL -->
+    <section class="section apps-section" id="apps">
+      <div class="section-container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>TOOLING & PRODUCTION SUITE</span>
+          </div>
+          <h2 class="section-title">Apps I Use & Filmmaking Gear</h2>
+          <p class="section-subtitle">
+            Industry-standard software suites and high-precision production gear utilized to deliver broadcast-quality
+            video productions from shoot to final master export.
+          </p>
+        </div>
+
+        <!-- Apps Used Cards -->
+        <!-- Apps Used Cards (4 Core Softwares) -->
+        <div class="apps-grid">
+
+          <!-- CapCut Pro -->
+          <div class="app-card">
+            <div class="app-header">
+              <div class="app-icon capcut">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div class="app-meta">
+                <h3 class="app-name">CapCut Pro</h3>
+                <span class="app-role">Dynamic Viral Reels & High-Paced Cuts</span>
+              </div>
+            </div>
+            <p class="app-desc">
+              Rapid sequence editing, precision speed curves, optical flow frame blending, kinetic typography, and audio
+              beat-matched transitions engineered for viral mobile retention.
+            </p>
+            <div class="app-features">
+              <span>Speed Ramping</span>
+              <span>Keyframe Pacing</span>
+              <span>Kinetic Captions</span>
+            </div>
+          </div>
+
+          <!-- DaVinci Resolve -->
+          <div class="app-card">
+            <div class="app-header">
+              <div class="app-icon davinci">
+                <i class="fa-solid fa-circle-nodes"></i>
+              </div>
+              <div class="app-meta">
+                <h3 class="app-name">DaVinci Resolve</h3>
+                <span class="app-role">Cinematic Colorist & Master Finishing</span>
+              </div>
+            </div>
+            <p class="app-desc">
+              Primary color grading suite for RAW/LOG debayering, node-based color science, shot balancing, film print
+              emulation, and broadcast delivery standards.
+            </p>
+            <div class="app-features">
+              <span>Node Tree Grading</span>
+              <span>HDR Color Wheels</span>
+              <span>Color Science</span>
+            </div>
+          </div>
+
+          <!-- Adobe Photoshop -->
+          <div class="app-card">
+            <div class="app-header">
+              <div class="app-icon photoshop">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <div class="app-meta">
+                <h3 class="app-name">Adobe Photoshop</h3>
+                <span class="app-role">Keyframes, Visual Design & Thumbnails</span>
+              </div>
+            </div>
+            <p class="app-desc">
+              High-conversion video thumbnail creation, creative compositing, typography design, visual mask overlays,
+              and cinematic poster artwork.
+            </p>
+            <div class="app-features">
+              <span>High-CTR Thumbnails</span>
+              <span>Creative Compositing</span>
+              <span>Visual Masking</span>
+            </div>
+          </div>
+
+          <!-- Adobe Lightroom -->
+          <div class="app-card">
+            <div class="app-header">
+              <div class="app-icon lightroom">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <div class="app-meta">
+                <h3 class="app-name">Adobe Lightroom</h3>
+                <span class="app-role">Color Palette Development & Stills</span>
+              </div>
+            </div>
+            <p class="app-desc">
+              Fine-tuning photographic stills, developing signature cinematic color presets, tone curve calibration, and
+              visual look consistency across shoots.
+            </p>
+            <div class="app-features">
+              <span>Look Development</span>
+              <span>Tone Curves</span>
+              <span>Color Correction</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Filmmaking Equipment Arsenal -->
+        <div class="gear-showcase">
+          <div class="gear-header">
+            <h3 class="gear-title"><i class="fa-solid fa-camera-retro"></i> Production Hardware & Field Equipment</h3>
+            <span class="gear-tagline">Calibrated for rapid on-site agility without compromising visual caliber</span>
+          </div>
+
+          <div class="gear-grid">
+            <div class="gear-card">
+              <div class="gear-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+              <div class="gear-content">
+                <h4>High-End 4K Cinema Smartphone</h4>
+                <p>4K 60FPS ProRes capture, wide dynamic range sensor, ultra-wide and telephoto cinematic perspective
+                  flexibility.</p>
+              </div>
+            </div>
+
+            <div class="gear-card">
+              <div class="gear-icon"><i class="fa-solid fa-arrows-to-dot"></i></div>
+              <div class="gear-content">
+                <h4>Mobile Gimbal 3-Axis Stabilization</h4>
+                <p>Silky-smooth parallax push-ins, dynamic tracking, 360° rotational moves, and cinematic
+                  motion-timelapses.</p>
+              </div>
+            </div>
+
+            <div class="gear-card">
+              <div class="gear-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+              <div class="gear-content">
+                <h4>Professional Wireless Audio & Mics</h4>
+                <p>Dual-channel wireless transmitters, wind-shielded lavaliers, and crystal-clear high fidelity on-site
+                  audio recording.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: PROFESSIONAL EXPERIENCE -->
+    <section class="section experience-section" id="experience">
+      <div class="section-container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>TRACK RECORD & HISTORY</span>
+          </div>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            A proven record of delivering high-impact architectural documentation, agency commercial productions, and
+            high-retention digital media.
+          </p>
+        </div>
+
+        <!-- Experience Timeline -->
+        <div class="timeline">
+
+          <!-- ITEM 1: IdeasGroup -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot active-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card timeline-card-current">
+              <div class="timeline-meta">
+                <span class="timeline-badge timeline-badge-current">Jun 2026 – Present</span>
+                <span class="timeline-role">Lead Videographer & Post-Production Specialist</span>
+              </div>
+              <h3 class="timeline-company">IdeasGroup</h3>
+              <p class="timeline-desc">
+                Spearheading commercial videography, property walkthroughs, and high-retention reel productions for Ideas One. Directing on-location visual narratives, orchestrating precision pacing, multi-cam assembly, and surgical color grading tailored for maximum brand retention and viral digital reach.
+              </p>
+              <div class="timeline-tags">
+                <span>Commercial Campaigns</span>
+                <span>Property Walkthroughs</span>
+                <span>Viral Reels</span>
+                <span>Color Science</span>
+                <span>CapCut Pro & DaVinci</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 2: Bin Adam Associates -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge">Aug 2025 – Feb 2026</span>
+                <span class="timeline-role">Videographer</span>
+              </div>
+              <h3 class="timeline-company">Bin Adam Associates</h3>
+              <p class="timeline-desc">
+                Documented architectural site progress, delivering high-quality visual updates for corporate
+                stakeholders. Captured structured, cinematic footage highlighting crucial construction milestones,
+                structural finishes, and site evolution.
+              </p>
+              <div class="timeline-tags">
+                <span>Architectural Filming</span>
+                <span>Site Evolution</span>
+                <span>Stakeholder Reports</span>
+                <span>Gimbal Stabilization</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 2: Taswiq Marketing House -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge">Sep 2024 – Jun 2025</span>
+                <span class="timeline-role">Videographer & Editor</span>
+              </div>
+              <h3 class="timeline-company">Taswiq Marketing House</h3>
+              <p class="timeline-desc">
+                Managed end-to-end production of engaging promotional videos. Directed on-site filming, executed precise
+                color grading pipelines, and finalized edits to produce compelling digital marketing content tailored
+                for diverse advertising platforms.
+              </p>
+              <div class="timeline-tags">
+                <span>Promotional Videos</span>
+                <span>Directing On-Site</span>
+                <span>Color Grading</span>
+                <span>Commercial Ads</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 3: Reel Innovator -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge">Nov 2023 – Present</span>
+                <span class="timeline-role">Reel Innovator & Media Director</span>
+              </div>
+              <h3 class="timeline-company">High-Impact Media Initiatives</h3>
+              <p class="timeline-desc">
+                Spearheading short-form video strategies for high-profile events and coverage. Innovating fresh reel
+                formats to maximize audience engagement and establish a cohesive, modern digital presence.
+              </p>
+              <div class="timeline-tags">
+                <span>Short-Form Strategy</span>
+                <span>Viral Formatting</span>
+                <span>Event Coverage</span>
+                <span>Audience Retention</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 4: Freelance Commercial Videographer & Editor -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge ongoing">Ongoing</span>
+                <span class="timeline-role">Freelance Videographer & Editor</span>
+              </div>
+              <h3 class="timeline-company">Various Commercial & Local Brands</h3>
+              <p class="timeline-desc">
+                Collaborating with multiple business brands to script, shoot, and edit commercial advertisements.
+                Ensuring brand aesthetics and core messaging are maintained through dynamic pacing and professional
+                post-production.
+              </p>
+              <div class="timeline-tags">
+                <span>Script-to-Screen</span>
+                <span>Brand Identity</span>
+                <span>Dynamic Pacing</span>
+                <span>E-Commerce Ads</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: POST-PRODUCTION PIPELINE -->
+    <section class="section pipeline-section">
+      <div class="section-container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-arrows-spin"></i>
+            <span>PRODUCTION METHODOLOGY</span>
+          </div>
+          <h2 class="section-title">The 5-Step Cinematic Pipeline</h2>
+          <p class="section-subtitle">
+            From raw concept to final color-graded master delivery, every stage is executed with mathematical precision
+            and cinematic flair.
+          </p>
+        </div>
+
+        <div class="pipeline-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h4 class="step-title">Vision & Shot-Listing</h4>
+            <p class="step-desc">Analyzing brand identity, determining visual pacing, establishing lighting moodboards,
+              and locking down the camera movement roadmap.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h4 class="step-title">Cinematic Capture</h4>
+            <p class="step-desc">Shooting in 4K HDR flat profiles, utilizing 3-axis gimbal motorized balance, anamorphic
+              framing, and isolated wireless audio.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h4 class="step-title">Assembly & Rhythm</h4>
+            <p class="step-desc">Selecting select-takes, crafting the narrative spine, cutting on kinetic action beats,
+              and fine-tuning retention hooks.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <h4 class="step-title">Color Science & LUTs</h4>
+            <p class="step-desc">Transforming RAW/LOG footage into deep, rich cinematic visuals. Precise skin-tone
+              matching and bespoke lighting mood calibration.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">05</div>
+            <h4 class="step-title">Sound Design & Master</h4>
+            <p class="step-desc">Layering deep sub-bass drops, spatial foley, dialogue clarity, and multi-format exports
+              for 16:9 Cinema & 9:16 Mobile.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT & BOOKING -->
+    <section class="section contact-section" id="contact">
+      <div class="section-container">
+
+        <div class="contact-card-main">
+
+          <div class="contact-info-side">
+            <div class="section-tag">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>INITIATE COLLABORATION</span>
+            </div>
+
+            <h2 class="contact-title">Let's Create Something Extraordinary</h2>
+
+            <p class="contact-subtitle">
+              Ready to elevate your architectural project, commercial advertisement, or social media presence with
+              top-tier cinematography and editing? Send a project inquiry below.
+            </p>
+
+            <div class="direct-contact-list">
+              <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer"
+                class="direct-item">
+                <div class="direct-icon instagram-glow">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="direct-text">
+                  <span class="direct-label">Instagram Portfolio</span>
+                  <span class="direct-val">@tayyab_pov07</span>
+                </div>
+              </a>
+
+              <a href="mailto:tayyeb31075@gmail.com" class="direct-item">
+                <div class="direct-icon email-glow">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="direct-text">
+                  <span class="direct-label">Direct Email</span>
+                  <span class="direct-val">tayyeb31075@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://wa.me/923224422553" target="_blank" rel="noopener noreferrer" class="direct-item">
+                <div class="direct-icon phone-glow">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="direct-text">
+                  <span class="direct-label">WhatsApp Direct</span>
+                  <span class="direct-val">+92 322 4422553</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="availability-badge">
+              <span class="pulse-green"></span>
+              <span>Available for Remote Post-Production & On-Location Shoots</span>
+            </div>
+          </div>
+
+          <!-- Interactive Booking Form -->
+          <div class="contact-form-side">
+            <form class="booking-form" id="bookingForm">
+              <h3 class="form-title">Send Project Brief</h3>
+
+              <div class="form-group">
+                <label for="clientName">Your Name / Company</label>
+                <input type="text" id="clientName" name="clientName" placeholder="e.g. John Doe / Studio Apex" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientEmail">Email Address</label>
+                <input type="email" id="clientEmail" name="clientEmail" placeholder="e.g. john@brand.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="projectType">Project Genre</label>
+                <select id="projectType" name="projectType" required>
+                  <option value="architectural">Architectural / Real Estate Cinema</option>
+                  <option value="reels">Viral 9:16 Reels & TikTok Series</option>
+                  <option value="commercial">Commercial / Brand Advertisement</option>
+                  <option value="color-grading">Color Grading & Post-Production Only</option>
+                  <option value="other">Other Creative Project</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="projectDetails">Project Overview & Timeline</label>
+                <textarea id="projectDetails" name="projectDetails" rows="4"
+                  placeholder="Briefly describe your vision, deliverables needed, deadline, or footage status..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary btn-submit" id="submitFormBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Transmit Project Brief</span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- CINEMATIC VIDEO LIGHTBOX MODAL -->
+  <div class="cinema-modal" id="cinemaModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-container">
+
+      <div class="modal-header">
+        <div class="modal-meta">
+          <span class="modal-rec-badge"><span class="rec-dot"></span> LIVE PLAYBACK</span>
+          <h3 class="modal-video-title" id="modalVideoTitle">Project Title</h3>
+          <span class="modal-video-client" id="modalVideoClient">Client Name</span>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Lightbox">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-player-wrapper" id="modalPlayerWrapper">
+        <video class="modal-video-player" id="modalVideoPlayer" playsinline>
+          <source src="" type="video/mp4" id="modalVideoSource">
+        </video>
+
+        <!-- Custom Video Controls Overlay -->
+        <div class="player-controls" id="playerControls">
+          <!-- Progress Bar -->
+          <div class="player-progress-container" id="playerProgressContainer">
+            <div class="player-progress-bar" id="playerProgressBar"></div>
+          </div>
+
+          <div class="controls-row">
+            <div class="controls-left">
+              <button class="control-btn" id="playPauseBtn" aria-label="Play or Pause">
+                <i class="fa-solid fa-play" id="playPauseIcon"></i>
+              </button>
+              <button class="control-btn" id="volumeBtn" aria-label="Mute or Unmute">
+                <i class="fa-solid fa-volume-high" id="volumeIcon"></i>
+              </button>
+              <div class="player-timecode">
+                <span id="currentTime">00:00</span> / <span id="durationTime">00:00</span>
+              </div>
+            </div>
+
+            <div class="controls-right">
+              <span class="quality-badge" id="modalSpecs">4K UHD • 60 FPS</span>
+              <button class="control-btn" id="fullscreenBtn" aria-label="Toggle Fullscreen">
+                <i class="fa-solid fa-expand"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-desc-box">
+          <h4>Director & Editor Notes:</h4>
+          <p id="modalVideoDesc">Project Description goes here...</p>
+        </div>
+        <div class="modal-action-box">
+          <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>View More on @tayyab_pov07</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="brand-name">MUHAMMAD TAYYAB NADEEM</div>
+        <p class="brand-desc">The Digital Architect — Professional Videographer & Post-Production Editor</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://instagram.com/tayyab_pov07" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+          aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:tayyeb31075@gmail.com" class="social-icon-btn" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/923224422553" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+          aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © <span id="currentYear">2026</span> Muhammad Tayyab Nadeem. All Rights Reserved. Crafted for Cinematic
+          Impact.
+        </p>
+        <p class="disclaimer">
+          Color science calibrated • 4K HDR mastering standards • Frame-perfect pacing
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

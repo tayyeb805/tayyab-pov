@@ -1,0 +1,12 @@
+{
+  "name": "tayyab-pov",
+  "version": "1.0.0",
+  "description": "Muhammad Tayyab Nadeem - Video Editor Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Muhammad Tayyab Nadeem",
+  "license": "ISC"
+}
